@@ -5,6 +5,10 @@
 
 ![Imgur](https://i.imgur.com/6Jmb8v2.png)
 
+- [x] Tela Principal
+
+![Imgur](https://i.imgur.com/xUX06Zl.png)
+
 - [x] Tela Cadastro
 
 ![Imgur](https://i.imgur.com/lWbj8Lw.png)
