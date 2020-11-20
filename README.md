@@ -1,7 +1,7 @@
 # :v: ​Telas ​d​o​ ​W​ebsite:vulcan_salute:
 ### Telas HTML e CSS ###
 
-- [ ] Tela Boas-vindas
+- [x] Tela Boas-vindas
 
 - [ ] Tela Cadastro
 
