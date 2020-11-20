@@ -30,7 +30,9 @@
 ![Imgur](https://i.imgur.com/eTpt64k.png)
 
 - [x] Filmes
+
+![Imgur](https://i.imgur.com/ZTHA3l6.png)
+
 - [x] Séries
 
-
-  
+![Imgur](https://i.imgur.com/B2MK6O7.png)
