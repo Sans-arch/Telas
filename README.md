@@ -7,6 +7,8 @@
 
 - [x] Tela Cadastro
 
+![Imgur](https://i.imgur.com/lWbj8Lw.png)
+
 - [x] Tela Filme
 
 - [x] Tela Login
