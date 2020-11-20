@@ -3,13 +3,13 @@
 
 - [x] Tela Boas-vindas
 
-- [ ] Tela Cadastro
+- [x] Tela Cadastro
 
-- [ ] Tela Filme
+- [x] Tela Filme
 
-- [ ] Tela Login
+- [x] Tela Login
 
-- [ ] Tela Pagamento
+- [x] Tela Pagamento
 
   -------------------------------------------------
 
