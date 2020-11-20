@@ -26,6 +26,9 @@
 ### Telas Duarte ###
 
 - [x] Anime
+
+![Imgur](https://i.imgur.com/eTpt64k.png)
+
 - [x] Filmes
 - [x] Séries
 
