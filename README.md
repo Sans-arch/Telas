@@ -9,13 +9,13 @@
 
 ![Imgur](https://i.imgur.com/lWbj8Lw.png)
 
-- [x] Tela Filme
+- [x] Tela Login
 
 ![Imgur](https://i.imgur.com/uT6PWQi.png)
 
-- [x] Tela Login
-
 - [x] Tela Pagamento
+
+![Imgur](https://i.imgur.com/s9j8EOG.png)
 
   -------------------------------------------------
 
