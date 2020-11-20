@@ -11,6 +11,8 @@
 
 - [x] Tela Filme
 
+![Imgur](https://i.imgur.com/uT6PWQi.png)
+
 - [x] Tela Login
 
 - [x] Tela Pagamento
