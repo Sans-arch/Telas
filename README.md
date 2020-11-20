@@ -3,6 +3,8 @@
 
 - [x] Tela Boas-vindas
 
+![Imgur](https://i.imgur.com/6Jmb8v2.png)
+
 - [x] Tela Cadastro
 
 - [x] Tela Filme
@@ -18,5 +20,6 @@
 - [x] Anime
 - [x] Filmes
 - [x] Séries
+
 
   
