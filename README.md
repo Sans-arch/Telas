@@ -15,8 +15,8 @@
 
 ### Telas Duarte ###
 
-- Anime
-- Filmes
-- Séries
+- [x] Anime
+- [x] Filmes
+- [x] Séries
 
   
