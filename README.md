@@ -1,4 +1,4 @@
-# :v: ​Telas ​d​o​ ​W​ebsite:vulcan_salute:
+# :v: ​Telas ​d​o​ ​W​ebsite :vulcan_salute:
 ### Telas HTML e CSS ###
 
 - [x] Tela Boas-vindas
