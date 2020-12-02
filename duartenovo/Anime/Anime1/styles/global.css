@@ -30,14 +30,14 @@
 #container header nav ul {
     display: flex;
 }
-#container header nav ul li {
+#container header nav ul a {
     margin-left: 10px;
     list-style: none;
     cursor: pointer;
     transition: color 0.3s;
 }
 
-#container header nav ul li:hover {
+#container header nav ul a:hover {
     color: #00f;
 }
 #container main {
