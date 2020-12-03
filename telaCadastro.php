@@ -60,3 +60,34 @@
 </body>
 </html>
 
+<?php
+
+$connection = mysqli_connect("localhost", "root", "", "pac");
+ 
+// executa a consulta
+$sqlConsult = "SELECT email, senha FROM login";
+$answer = mysqli_query($connection, $sqlConsult);
+
+$usuarioEnviado = 'sansanfleitas@gmail.com';
+$senhaEnviado = '43215';
+
+while ($columns = mysqli_fetch_array($answer)){
+    if($columns['email'] == $usuarioEnviado && $columns['senha'] == $senhaEnviado){
+        echo "<p>Funcionou. Pode realizar o login</p>";
+        break;
+
+    }else{
+        echo "<p>Mensagem de erro: senha ou usuário inválidos.</p>";
+        break;
+    }
+
+    // echo "<p>" . $columns['email'] . "- Senha: " . $columns['senha'] ."</p>";
+
+}
+
+ 
+// fecha a conexão
+mysqli_close($connection);
+
+?>
+

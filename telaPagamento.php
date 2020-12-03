@@ -37,3 +37,35 @@
 </body>
 </html>
 
+<?php
+
+$connection = mysqli_connect("localhost", "root", "", "pac");
+ 
+// executa a consulta
+$sqlConsult = "SELECT * FROM pagcartao";
+$answer = mysqli_query($connection, $sqlConsult);
+
+$usuarioEnviado = 'Matheus Ferreira';
+$cvv = 123;
+
+
+while ($columns = mysqli_fetch_array($answer)){
+
+    if($columns['titular'] == $usuarioEnviado && $columns['cvv'] == $cvv){
+        echo "<p>Funcionou. Pode validar o cartão. Direciona para a página. Usuário: ".$columns['titular']."-".$columns['cvv']."</p>";
+        $status = true;
+        break;
+    }
+    $status = false;
+}
+
+if($status){
+    echo "<p>Tela do Cartão</p>";
+}else{
+    echo "<p>Tela de Cadastro</p>";
+}
+ 
+// fecha a conexão
+mysqli_close($connection);
+
+?>

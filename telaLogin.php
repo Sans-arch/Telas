@@ -35,3 +35,36 @@
 </body>
 </html>
 
+<?php
+
+$connection = mysqli_connect("localhost", "root", "", "pac");
+ 
+// executa a consulta
+$sqlConsult = "SELECT email, senha FROM login";
+$answer = mysqli_query($connection, $sqlConsult);
+
+$usuarioEnviado = 'gabrielmuller708@gmail.com';
+$senhaEnviado = 12345;
+
+
+while ($columns = mysqli_fetch_array($answer)){
+    
+    if($columns['email'] == $usuarioEnviado && $columns['senha'] == $senhaEnviado){
+        echo "<p>Funcionou. Pode realizar o login</p>";
+        $status = true;
+        break;
+    }
+    $status = false;
+}
+
+if($status){
+    echo "<p>Tela de Login</p>";
+}else{
+    echo "<p>Tela de Cadastro</p>";
+}
+ 
+// fecha a conexão
+mysqli_close($connection);
+
+?>
+
