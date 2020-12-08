@@ -18,7 +18,7 @@
             <pre>Filmes, séries e muito
 mais.
 Sem Limites.
-</pre>
+</pre> <!--
         <p id="subtitulo">Assista onde quiser. Cancele quando quiser.</p>
         <p id="subtitulo">Pronto para assistir? Informe o seu email para criar ou reiniciar sua assinatura.</p>
 
@@ -28,7 +28,26 @@ Sem Limites.
         <a href="./telaLogin.html" target="_blank"><button id="inputsubmit">Vamos lá</button></a>
         <a href="./telaCadastro.html" target="_blank"><button id="inputsubmitAlternative">Não tem cadastro? Faça agora!</button></a>
         
-        <!-- <a href="http:www.google.com.br/" target="_blank"><input type="submit" value="Vamos lá" id="inputsubmit"></a> -->
+         <a href="http:www.google.com.br/" target="_blank"><input type="submit" value="Vamos lá" id="inputsubmit"></a> -->
+
+         <p id="subtitulo">Assista onde quiser. Cancele quando quiser.</p>
+        <p id="subtitulo">Pronto para assistir? Informe o seu email para criar ou reiniciar sua assinatura.</p>
+
+
+        <!-- Informar no ACTION o arquivo a ser enviado os dados e o método utilizado -->
+
+        <form action="telaLogin.php" method="post">
+            <input type="email" placeholder="E-mail" name="inputemail" id="inputemail">
+
+            <!-- Criar uma div ou outra tag para organizar os botões. Substituir a tag "a" por "input" -->
+
+            <div>
+            <input type="submit" id="inputsubmit" value="Vamos lá!">
+
+            <a href="telaCadastro.php" target="_blank"><button id="inputsubmitAlternative">Não tem cadastro? Faça agora!</button></a>
+
+            </div>
+        </form>
     </div>
     </div>
   

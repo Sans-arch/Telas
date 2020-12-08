@@ -34,13 +34,23 @@
   
 </body>
 </html>
+
 <?php
+
+// Coletar os dados do formulário encaminhado:
+
+$email = filter_input(INPUT_POST, "inputemail");
+echo "<p id='merchan'> $email </p>";
+
+
 
 $connection = mysqli_connect("localhost", "root", "", "pac");
  
 // executa a consulta
 $sqlConsult = "SELECT email, senha FROM login";
-$answer = mysqli_query($connection, $sqlConsult);
+
+//Alterar o nome da variável:
+$res = mysqli_query($connection, $sqlConsult);
 
 while ($columns = mysqli_fetch_array($res))
 {
@@ -49,7 +59,6 @@ while ($columns = mysqli_fetch_array($res))
 
  
 // fecha a conexão
-mysqli_close($connection);
+mysqli_close($connection); 
 
 ?>
-
